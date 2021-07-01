@@ -1,0 +1,459 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: ;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: ;
+}
+a, a:hover{
+	text-decoration:none;
+}
+/*Header css start*/
+
+.header{
+	width: 100%;
+}
+.header .bg-light {
+    background-color: transparent !important;
+}
+.header .bg-light .navbar-brand{
+	font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 23px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #8e8e8e;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-left: 16px;
+    padding: 12px 0 12px 19px;
+    font-weight: 500;
+}
+/*Header css start*/
+
+/*slider css start*/
+.slider{
+	width: 100%;
+	background: url(../images/SliderImage.png) center top no-repeat;
+	background-size: cover;
+	padding: 115px 0 80px 0;
+}
+.slider-content {
+    width: 49%;
+}
+.slider .slider-content h1{
+    font-size: 51px;
+    line-height: 50px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.slider .slider-content p{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+}
+.slider .slider-content .btn-primary {
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 0%;
+    color: black;
+    text-transform: uppercase;
+    padding: 8px 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+.slider .slider-content .btn-primary i{
+	padding-left: 10px;
+}
+.slider .slider-content .btn-primary:hover,
+.slider .slider-content .btn-primary:focus{
+	background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+.slider .slider-content h4{
+    margin: 55px 0;
+}
+/*slider css end*/
+
+/*wellcome css start*/
+.wellcome{
+	width: 100%;
+        box-shadow: 2px -5px 20px 6px #fff;
+}
+.wellcome .title{
+    text-align: center;
+}
+.wellcome .title h2{
+    font-family: 'Lato', sans-serif;
+    padding: 15px 0 20px 0;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.wellcome .title p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #8e8e8e;
+    line-height: 26px;
+    padding-bottom: 65px;
+}
+.wellcome .cards-group{
+    padding: 30px 0;
+}
+.wellcome .cards-group .card-body{
+	text-align: center;
+}
+.wellcome .cards-group .card-body .main-icon-card{
+    font-size: 45px;
+    position: absolute;
+        top: -16px;;
+    left: 107px;
+    color: #8e8e8e;
+}
+
+.wellcome .cards-group .card-body .card-title{
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    margin-top: 50px;
+}
+.wellcome .cards-group .card-body hr {
+    width: 86px;
+    margin: auto;
+}
+.wellcome .cards-group .card-body p{
+    font-size: 17px;
+    padding-top: 13px;
+    color: #8e8e8e;
+    padding-bottom: 35px;
+    margin: 0;
+}
+.wellcome .cards-group .card-body .btn-primary {
+    background-color: transparent;
+    border-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #8e8e8e;
+    text-transform: uppercase;
+    padding: 5px 30px;
+}
+.wellcome .cards-group .card-body .btn-primary:hover,
+.wellcome .cards-group .card-body .btn-primary:focus{
+	border: 1px solid #8e8e8e;
+    border-radius: 0;
+}
+.wellcome .cards-group .card-body .btn-primary i{
+	padding-left: 5px;
+}
+/*wellcome css end*/
+
+/*about css start*/
+
+.about {
+	width: 100%;
+	padding: 50px 0 80px;
+}
+.about .about-left{
+	padding: 0;
+}
+
+.about .about-right h2{
+    font-size: 45px;
+    font-family: 'Lato';
+    text-transform: uppercase;
+    margin-bottom: 38px;
+}
+.about .about-left .about-image{
+	width: 100%;
+}
+.about .about-right {
+    padding: 0px 0 0 70px;
+}
+.about .about-right .first-para{
+	font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #8e8e8e;
+    margin-bottom: 25px;
+}
+.about .about-right .second-para{
+	font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #8e8e8e;
+    margin-bottom: 25px;
+}
+.about .about-right .btn-primary {
+    color: black;
+    background-color: transparent;
+    border-color: #8e8e9c;
+    border-radius: 0;
+    padding: 12px 40px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.about .about-right .btn-primary i{
+	padding-left: 5px;
+}
+/*about css end*/
+
+/*recent-work css start*/
+.recent-work{
+    width: 100%;
+    padding: 80px 0;
+    background: #f8f8f8;
+}
+.recent-work .recent-title{
+    padding-bottom: 70px;
+    text-transform: uppercase;
+    font-family: 'Lato';
+}
+.recent-work .btn-primary {
+    background-color: transparent;
+    border: 1px solid #f8f8f8;
+    border-radius: 0;
+    margin: 0 5px;
+    color: #8e8e8e;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    padding: 8px 13px;
+}
+.recent-work .btn-primary:hover,
+.recent-work .btn-primary:focus{
+    border: 1px solid black;
+    color: black;
+}
+.recent-work .text-center{
+    margin-bottom: 50px;
+}
+.mix{
+    padding-bottom: 30px;
+}
+/*recent-work css end*/
+
+/*whychoosenipro css start*/
+
+.whychoosenipro{
+	width: 100%;
+	padding: 60px 0;
+}
+.whychoosenipro .card{
+	padding: 25px 0;
+}
+.whychoosenipro .card .card-body {
+    flex: 1 1 auto;
+    padding: 7px 1rem;
+}
+.whychoosenipro .section-title{
+    text-align: center;
+}
+.whychoosenipro .section-title h2{
+	font-size: 31px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+.whychoosenipro .card .card-text {
+    padding-top: 25px;
+    font-size: 16px;
+    color: #8e8e8e;
+    font-family: 'Roboto';
+}
+.whychoosenipro .card .card-body .card-title{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #8e8e8e;
+    font-family: 'Lato';
+    font-weight: 600;
+    margin-top: 5px;
+    transition: 0.5s;
+}
+.whychoosenipro .card {
+    padding: 25px 0;
+    border-top: none;
+    border-left: none;
+    border-radius: 0;
+    border-right: none;
+    border-bottom: 1px solid #8e8e8e;
+    transition: 0.5s;
+}
+.whychoosenipro .card:hover .card-title{
+	color: black;
+}
+.whychoosenipro .card:hover {
+	border-bottom: 1px solid black;
+}
+/*whychoosenipro css end*/
+
+/*whowork css start*/
+
+.whowork{
+    width: 100%;
+    padding: 40px 0 80px;
+    background: url(../images/who-Background.png) center top no-repeat;
+    background-size: cover;
+}
+
+.whowork .whowork-title {
+    text-align: center;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+    font-family: 'Lato';
+}
+.whowork .card{
+    border: none;
+    width: 255px;
+    transition: 0.5s;
+}
+.whowork .card .card-body h5{
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-size: 19px;
+    font-weight: 600;
+}
+.whowork .card .card-body p{
+    font-family: 'Roboto';
+    font-size: 17px;
+    color: #8e8e8e;
+}
+.whowork .card .social-icons {
+    position: absolute;
+    background: #fff;
+    top: 40px;
+    display: none;
+    transition: 0.5s;
+}
+.whowork .card .social-icons ul{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.whowork .card .social-icons ul li{
+        padding: 5px 10px;
+    font-size: 30px;
+    color: #8e8e8e;
+    cursor: pointer;
+    text-align: center;
+}
+.whowork .card:hover .social-icons{
+    display: flex;
+}
+/*whowork css end*/
+
+/*price css start*/
+.price{
+    width: 100%;
+    padding: 50px 0 80px;
+}
+.price .price-title {
+    text-align: center;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+    font-family: 'Lato';
+}
+.price .price-row .card-body ul.dashed {
+    font-size: 18px;
+    color: #8e8eaa;
+    list-style-type: none;
+    padding-left: 10px;
+}
+.price .price-row .card-body ul.dashed li{
+    padding: 10px 0;
+}
+
+.price .price-row .card-body h4{
+    position: absolute;
+    top: -15px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: 'Lato';
+    font-weight: 600;
+    padding-left: 10px;
+}
+.price .price-row .card-body .card-title {
+    margin-bottom: .5rem;
+    position: absolute;
+    top: -15px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: 'Lato';
+    font-weight: 600;
+    padding-left: 10px;
+}
+ .price .price-row .card-body h1{
+    font-family: 'Roboto';
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.price .price-row .card-body span{
+    font-size: 22px;
+    color: #8e8eaa;
+    font-weight: 400;
+}
+.price .price-row .card-body .btn-primary {
+    color: #8e8eaa;
+    background-color: transparent;
+    border-color: #8e8eaa;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 10px 50px;
+    font-family: 'Roboto';
+    border-radius: 0;
+    margin-bottom: 18px;
+}
+.price .price-row .card-body .btn-primary i{
+    padding-left: 8px;
+    font-size: 22px;
+}
+
+/*price css end*/
+/*responsive css start*/
+
+.responsive{
+    width: 100%;
+    padding: 30px 0;
+    background: #f8f8f8;
+}
+.responsive .buttton button{
+    border: 1px solid;
+    padding: 7px 22px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+}
+.responsive .buttton{
+    text-align: right;
+}
+.responsive h4{
+    float: left;
+    font-family: 'Lato';
+    margin-bottom: 0;
+    padding-top: 5px;
+}
+/*responsive css end*/
+/*Media Quaries start here*/
+@media (min-width: 320px) and (max-width: 480px){
+
+}
+@media (min-width: 481px) and (max-width: 767px){
+	
+}
+@media (min-width: 768px) and (max-width: 1024px){
+	
+}
+/*Media Quaries End here*/
+
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
